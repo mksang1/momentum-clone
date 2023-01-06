@@ -46,7 +46,7 @@ img {
 }
 #weather {
   position: absolute;
-  bottom: 20px;
+  bottom: 220px;
   flex-direction: row;
   justify-content: center;
   border: none;
