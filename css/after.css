@@ -1,0 +1,67 @@
+#greeting {
+  position: absolute;
+  padding: 5px;
+  left: 15px;
+  top: 15px;
+  font-size: 25px;
+  color: rgb(255, 215, 0, 0.8);
+  border: none;
+  font-weight: bold;
+  font-family: KorailRoundGothicBold;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0, 0.3);
+}
+#todo-form {
+  position: absolute;
+  top: 50px;
+}
+#todo-form input {
+  padding: 10px;
+  width: 340px;
+  border: none;
+  border-radius: 10px;
+  background: rgb(0, 0, 0, 0.4);
+  font-family: Humanbumsuk;
+  font-size: x-large;
+  color: white;
+}
+#todo-form input::placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: KorailRoundGothicBold;
+  font-size: x-large;
+  opacity: 0.7;
+  color: rgb(255, 229, 181);
+}
+ul#todo-list {
+  position: absolute;
+  top: 110px;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#todo-list li {
+  margin-top: 15px;
+  margin-right: 40px;
+  justify-content: center;
+  align-items: center;
+}
+#todo-list li button {
+  font-size: medium;
+  padding-top: 4.5px;
+  padding-bottom: 7px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+  background: rgb(0, 0, 0, 0.2);
+}
+#todo-list li span {
+  color: rgb(0, 0, 0, 0.4);
+  font-size: 22px;
+  font-weight: bold;
+  font-family: KorailRoundGothicBold;
+  margin-right: 7px;
+}
