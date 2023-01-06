@@ -1,6 +1,7 @@
 #greeting {
   position: absolute;
-  padding: 5px;
+  padding-top: 6px;
+  padding-bottom: 4px;
   left: 15px;
   top: 15px;
   font-size: 25px;
