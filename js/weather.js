@@ -17,6 +17,6 @@ function onGeoOk(position) {
 }
 
 function onGeoErr() {
-  alert("위치 정보 얻을 수 없어 날씨 정보를 표시할 수 없습니다.");
+  alert("Can't find your location. No weather info...");
 }
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoErr);
